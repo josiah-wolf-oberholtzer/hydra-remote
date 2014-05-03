@@ -36,8 +36,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.0, 115.0, 143.0, 18.0 ],
-					"text" : "DM1K-0-Channel-1-MIDI"
+					"patching_rect" : [ 65.0, 115.0, 149.0, 18.0 ],
+					"text" : "DM1K-0-Channel-25-MIDI"
 				}
 
 			}
@@ -121,7 +121,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 85.0, 229.0, 20.0 ],
-					"text" : "sprintf set DM1K-%d-Channel-%d-MIDI"
+					"text" : "sprintf set DM1K-%d-Channel-%d"
 				}
 
 			}
