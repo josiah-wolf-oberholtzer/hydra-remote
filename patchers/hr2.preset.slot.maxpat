@@ -17,7 +17,7 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 0,
-		"statusbarvisible" : 2,
+		"statusbarvisible" : 0,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
@@ -29,13 +29,15 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-34",
-					"maxclass" : "inlet",
+					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 10.0, 25.0, 25.0 ]
+					"patching_rect" : [ 10.0, 10.0, 120.0, 20.0 ],
+					"text" : "r from-pattrstorage"
 				}
 
 			}
@@ -47,7 +49,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 65.0, 105.0, 20.0 ],
+					"patching_rect" : [ 10.0, 60.0, 120.0, 20.0 ],
 					"text" : "s #0-preset-name"
 				}
 
@@ -75,7 +77,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 5.0, 40.0, 100.0, 20.0 ],
+					"patching_rect" : [ 10.0, 35.0, 55.0, 20.0 ],
 					"text" : "route #1"
 				}
 
@@ -117,7 +119,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 240.0, 115.0, 143.0, 31.0 ],
-					"presentation_rect" : [ 550.0, 190.0, 0.0, 0.0 ],
 					"text" : "bgcolor 0.98 0.82 0.05 1., textcolor 0. 0. 0. 1."
 				}
 
@@ -188,7 +189,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 485.0, 109.0, 20.0 ],
+					"patching_rect" : [ 10.0, 485.0, 124.0, 20.0 ],
 					"text" : "t #1 #1"
 				}
 
@@ -201,7 +202,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 100.0, 535.0, 139.0, 20.0 ],
+					"patching_rect" : [ 115.0, 535.0, 139.0, 20.0 ],
 					"text" : "s current-preset-number"
 				}
 
@@ -339,8 +340,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 535.0, 84.0, 20.0 ],
-					"text" : "s pattrstorage"
+					"patching_rect" : [ 10.0, 535.0, 98.0, 20.0 ],
+					"text" : "s to-pattrstorage"
 				}
 
 			}
@@ -354,7 +355,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 510.0, 56.0, 18.0 ],
-					"presentation_rect" : [ 93.0, 363.0, 0.0, 0.0 ],
 					"text" : "recall $1"
 				}
 
@@ -393,7 +393,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 75.0, 190.0, 35.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 25.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 20.0, 15.0 ],
 					"prototypename" : "M4L.button",
 					"rounded" : 0.0,
 					"text" : "#1",
@@ -426,7 +426,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 95.0, 425.0, 190.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 0.0, 190.0, 20.0 ],
+					"presentation_rect" : [ 25.0, 0.0, 160.0, 15.0 ],
 					"prototypename" : "M4L.button",
 					"rounded" : 0.0,
 					"text" : "-",
