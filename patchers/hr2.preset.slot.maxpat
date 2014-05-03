@@ -9,6 +9,7 @@
 		}
 ,
 		"rect" : [ 297.0, 44.0, 861.0, 589.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -63,7 +64,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 95.0, 370.0, 105.0, 20.0 ],
+					"patching_rect" : [ 95.0, 370.0, 115.0, 20.0 ],
 					"text" : "r #0-preset-name"
 				}
 
@@ -230,7 +231,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.0, 190.0, 105.0, 20.0 ],
+					"patching_rect" : [ 115.0, 190.0, 115.0, 20.0 ],
 					"text" : "r #0-preset-name"
 				}
 
@@ -243,7 +244,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 345.0, 105.0, 20.0 ],
+					"patching_rect" : [ 115.0, 345.0, 117.0, 20.0 ],
 					"text" : "s #0-preset-name"
 				}
 
@@ -368,8 +369,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 460.0, 203.0, 18.0 ],
-					"text" : "write #1, slotname #1 $1, writeagain"
+					"patching_rect" : [ 75.0, 460.0, 289.0, 18.0 ],
+					"text" : "write #1, slotname #1 $1, writeagain, getslotnamelist"
 				}
 
 			}
