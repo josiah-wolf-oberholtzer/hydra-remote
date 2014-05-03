@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 93.0, 80.0, 1115.0, 340.0 ],
+		"rect" : [ 4.0, 44.0, 1116.0, 343.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,71 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 225.0, 475.0, 101.0, 20.0 ],
+					"text" : "loadmess text #1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 655.0, 360.0, 142.0, 20.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"text" : "pattr is-master-fader",
+					"varname" : "is-master-fader"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 455.0, 360.0, 171.0, 20.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"text" : "pattr is-linked-to-master-fader",
+					"varname" : "is-linked-to-master-fader"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-17",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 455.0, 420.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"justification" : 1,
@@ -60,9 +125,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 189.0, -1.0, 55.0, 50.0 ],
+					"patching_rect" : [ 225.0, 500.0, 55.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 175.0, 0.0, 120.0, 50.0 ],
+					"presentation_rect" : [ 170.0, 0.0, 120.0, 50.0 ],
 					"prototypename" : "M4L.display",
 					"rounded" : 0.0,
 					"text" : "#1",
@@ -85,72 +150,6 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-14",
-					"maxclass" : "textbutton",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 930.0, 315.0, 121.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 985.0, 300.0, 120.0, 22.0 ],
-					"prototypename" : "M4L.button",
-					"rounded" : 0.0,
-					"text" : "Stereo",
-					"textcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
-					"texton" : "Stereo",
-					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"textovercolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
-					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"bgoncolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
-					"bgovercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"bgoveroncolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"borderoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-13",
-					"maxclass" : "textbutton",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 930.0, 135.0, 121.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 985.0, 160.0, 120.0, 22.0 ],
-					"prototypename" : "M4L.button",
-					"rounded" : 0.0,
-					"text" : "Stereo",
-					"textcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
-					"texton" : "Stereo",
-					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"textovercolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
-					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"bgoncolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
-					"bgovercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"bgoveroncolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"borderoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-12",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -158,7 +157,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 930.0, 75.0, 121.0, 21.0 ],
+					"patching_rect" : [ 455.0, 390.0, 121.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 985.0, 100.0, 120.0, 22.0 ],
 					"prototypename" : "M4L.button",
@@ -168,7 +167,8 @@
 					"texton" : "Link to Master Fader",
 					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textovercolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
-					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
+					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"varname" : "textbutton"
 				}
 
 			}
@@ -191,7 +191,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 930.0, 45.0, 120.0, 20.0 ],
+					"patching_rect" : [ 660.0, 390.0, 120.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 985.0, 70.0, 120.0, 22.0 ],
 					"prototypename" : "M4L.button",
@@ -201,7 +201,8 @@
 					"texton" : "Master Fader",
 					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"textovercolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
-					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
+					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"varname" : "textbutton[1]"
 				}
 
 			}
@@ -260,7 +261,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "front" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 225.0, 360.0, 20.0, 20.0 ]
 				}
 
@@ -272,7 +273,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 360.0, 20.0, 20.0 ]
 				}
 
@@ -479,9 +480,9 @@
 					"name" : "hr2.midi.router.console.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 215.0, 905.0, 130.0 ],
+					"patching_rect" : [ 10.0, 215.0, 1045.0, 130.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 200.0, 905.0, 130.0 ],
+					"presentation_rect" : [ 70.0, 200.0, 1045.0, 130.0 ],
 					"varname" : "DM1K-2"
 				}
 
@@ -494,15 +495,51 @@
 					"name" : "hr2.midi.router.console.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 35.0, 905.0, 130.0 ],
+					"patching_rect" : [ 10.0, 35.0, 1045.0, 130.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 60.0, 905.0, 130.0 ],
+					"presentation_rect" : [ 70.0, 60.0, 1045.0, 130.0 ],
 					"varname" : "DM1K-1"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 1 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
@@ -639,6 +676,21 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "hr2.midi.router.console.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hr2.dict.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ]
 	}

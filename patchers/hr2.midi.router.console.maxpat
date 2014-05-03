@@ -8,7 +8,8 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 1276.0, 710.0 ],
+		"rect" : [ 20.0, 44.0, 1276.0, 710.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +29,68 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 10.0, 10.0, 59.5, 20.0 ],
+					"text" : "autopattr",
+					"varname" : "u052012138"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1005.0, 520.0, 115.0, 33.0 ],
+					"text" : "hr2.dict #1 #2-Stereo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"bgoncolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
+					"bgovercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"bgoveroncolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"borderoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1005.0, 495.0, 121.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 915.0, 100.0, 120.0, 22.0 ],
+					"prototypename" : "M4L.button",
+					"rounded" : 0.0,
+					"text" : "Stereo",
+					"textcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+					"texton" : "Stereo",
+					"textoncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
+					"textovercolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+					"textoveroncolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-342",
 					"justification" : 1,
@@ -135,7 +198,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 880.0, 260.0, 115.0, 33.0 ],
+					"patching_rect" : [ 880.0, 260.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-32"
 				}
 
@@ -229,7 +292,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 755.0, 260.0, 115.0, 33.0 ],
+					"patching_rect" : [ 755.0, 260.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-31"
 				}
 
@@ -323,7 +386,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 630.0, 260.0, 115.0, 33.0 ],
+					"patching_rect" : [ 630.0, 260.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-30"
 				}
 
@@ -417,7 +480,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 505.0, 260.0, 115.0, 33.0 ],
+					"patching_rect" : [ 505.0, 260.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-29"
 				}
 
@@ -511,7 +574,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 880.0, 195.0, 115.0, 33.0 ],
+					"patching_rect" : [ 880.0, 195.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-24"
 				}
 
@@ -605,7 +668,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 755.0, 195.0, 115.0, 33.0 ],
+					"patching_rect" : [ 755.0, 195.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-23"
 				}
 
@@ -699,7 +762,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 630.0, 195.0, 115.0, 33.0 ],
+					"patching_rect" : [ 630.0, 195.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-22"
 				}
 
@@ -793,7 +856,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 505.0, 195.0, 115.0, 33.0 ],
+					"patching_rect" : [ 505.0, 195.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-21"
 				}
 
@@ -840,7 +903,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 880.0, 390.0, 115.0, 33.0 ],
+					"patching_rect" : [ 880.0, 390.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-48"
 				}
 
@@ -887,7 +950,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 880.0, 130.0, 115.0, 33.0 ],
+					"patching_rect" : [ 880.0, 130.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-16"
 				}
 
@@ -934,7 +997,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 755.0, 390.0, 115.0, 33.0 ],
+					"patching_rect" : [ 755.0, 390.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-47"
 				}
 
@@ -981,7 +1044,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 755.0, 130.0, 115.0, 33.0 ],
+					"patching_rect" : [ 755.0, 130.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-15"
 				}
 
@@ -1028,7 +1091,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 630.0, 390.0, 115.0, 33.0 ],
+					"patching_rect" : [ 630.0, 390.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-46"
 				}
 
@@ -1075,7 +1138,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 630.0, 130.0, 115.0, 33.0 ],
+					"patching_rect" : [ 630.0, 130.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-14"
 				}
 
@@ -1122,7 +1185,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 505.0, 390.0, 115.0, 33.0 ],
+					"patching_rect" : [ 505.0, 390.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-45"
 				}
 
@@ -1169,7 +1232,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 505.0, 130.0, 115.0, 33.0 ],
+					"patching_rect" : [ 505.0, 130.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-13"
 				}
 
@@ -1216,7 +1279,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 880.0, 325.0, 115.0, 33.0 ],
+					"patching_rect" : [ 880.0, 325.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-40"
 				}
 
@@ -1310,7 +1373,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 755.0, 325.0, 115.0, 33.0 ],
+					"patching_rect" : [ 755.0, 325.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-39"
 				}
 
@@ -1404,7 +1467,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 630.0, 325.0, 115.0, 33.0 ],
+					"patching_rect" : [ 630.0, 325.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-38"
 				}
 
@@ -1498,7 +1561,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 505.0, 325.0, 115.0, 33.0 ],
+					"patching_rect" : [ 505.0, 325.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-37"
 				}
 
@@ -1639,7 +1702,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.0, 260.0, 115.0, 33.0 ],
+					"patching_rect" : [ 385.0, 260.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-28"
 				}
 
@@ -1733,7 +1796,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 260.0, 115.0, 33.0 ],
+					"patching_rect" : [ 260.0, 260.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-27"
 				}
 
@@ -1827,7 +1890,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 260.0, 115.0, 33.0 ],
+					"patching_rect" : [ 135.0, 260.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-26"
 				}
 
@@ -1921,7 +1984,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 260.0, 115.0, 33.0 ],
+					"patching_rect" : [ 10.0, 260.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-25"
 				}
 
@@ -2015,7 +2078,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.0, 195.0, 115.0, 33.0 ],
+					"patching_rect" : [ 385.0, 195.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-20"
 				}
 
@@ -2109,7 +2172,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 195.0, 115.0, 33.0 ],
+					"patching_rect" : [ 260.0, 195.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-19"
 				}
 
@@ -2203,7 +2266,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 195.0, 115.0, 33.0 ],
+					"patching_rect" : [ 135.0, 195.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-18"
 				}
 
@@ -2297,7 +2360,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 195.0, 115.0, 33.0 ],
+					"patching_rect" : [ 10.0, 195.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-17"
 				}
 
@@ -2344,7 +2407,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.0, 390.0, 115.0, 33.0 ],
+					"patching_rect" : [ 385.0, 390.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-44"
 				}
 
@@ -2391,7 +2454,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.0, 130.0, 115.0, 33.0 ],
+					"patching_rect" : [ 385.0, 130.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-12"
 				}
 
@@ -2438,7 +2501,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 390.0, 115.0, 33.0 ],
+					"patching_rect" : [ 260.0, 390.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-43"
 				}
 
@@ -2485,7 +2548,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 130.0, 115.0, 33.0 ],
+					"patching_rect" : [ 260.0, 130.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-11"
 				}
 
@@ -2532,7 +2595,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 390.0, 115.0, 33.0 ],
+					"patching_rect" : [ 135.0, 390.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-42"
 				}
 
@@ -2579,7 +2642,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 130.0, 115.0, 33.0 ],
+					"patching_rect" : [ 135.0, 130.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-10"
 				}
 
@@ -2626,7 +2689,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 390.0, 115.0, 33.0 ],
+					"patching_rect" : [ 10.0, 390.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-41"
 				}
 
@@ -2720,7 +2783,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.0, 325.0, 115.0, 33.0 ],
+					"patching_rect" : [ 385.0, 325.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-36"
 				}
 
@@ -2814,7 +2877,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 325.0, 115.0, 33.0 ],
+					"patching_rect" : [ 260.0, 325.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-35"
 				}
 
@@ -2908,7 +2971,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 325.0, 115.0, 33.0 ],
+					"patching_rect" : [ 135.0, 325.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-34"
 				}
 
@@ -3002,7 +3065,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 325.0, 115.0, 33.0 ],
+					"patching_rect" : [ 10.0, 325.0, 119.0, 33.0 ],
 					"text" : "hr2.dict #1 #2-Channel-33"
 				}
 
@@ -3530,6 +3593,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-299", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3698,14 +3770,6 @@
 					"source" : [ "obj-340", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "hr2.dict.maxpat",
-				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ]
 	}
