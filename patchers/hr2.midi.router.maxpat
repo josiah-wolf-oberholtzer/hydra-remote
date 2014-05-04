@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 1127.0, 341.0 ],
+		"rect" : [ 4.0, 44.0, 1276.0, 756.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,18 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-6",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 660.0, 550.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 661.0, 552.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -123,7 +135,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 555.0, 695.0, 20.0, 20.0 ]
+					"patching_rect" : [ 720.0, 685.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -136,7 +148,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 555.0, 645.0, 45.0, 20.0 ],
+					"patching_rect" : [ 720.0, 635.0, 45.0, 20.0 ],
 					"text" : "zl sum"
 				}
 
@@ -150,7 +162,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 555.0, 620.0, 100.0, 20.0 ],
+					"patching_rect" : [ 720.0, 610.0, 100.0, 20.0 ],
 					"text" : "pak 0 0 0"
 				}
 
@@ -288,7 +300,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 555.0, 720.0, 20.0, 20.0 ]
+					"patching_rect" : [ 720.0, 710.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -301,7 +313,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 555.0, 670.0, 32.5, 20.0 ],
+					"patching_rect" : [ 720.0, 660.0, 32.5, 20.0 ],
 					"text" : "> 0"
 				}
 
@@ -423,7 +435,7 @@
 					"presentation_rect" : [ 170.0, 0.0, 120.0, 50.0 ],
 					"prototypename" : "M4L.display",
 					"rounded" : 0.0,
-					"text" : "24",
+					"text" : "1",
 					"textcolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
 					"texton" : "Text",
 					"textovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -784,6 +796,15 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]

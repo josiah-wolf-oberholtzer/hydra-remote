@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 20.0, 44.0, 1132.0, 453.0 ],
+		"rect" : [ 119.0, 188.0, 1135.0, 356.0 ],
 		"bgcolor" : [ 0.094118, 0.113725, 0.137255, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -33,64 +33,95 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 340.0, 330.0, 105.0, 20.0 ],
+					"text" : "hr2.midi.receive 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 340.0, 300.0, 105.0, 20.0 ],
+					"text" : "hr2.midi.receive 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "2-midi-outport" ],
 					"id" : "obj-57",
-					"maxclass" : "newobj",
+					"maxclass" : "bpatcher",
+					"name" : "hr2.midi.port.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 480.0, 155.0, 20.0 ],
-					"text" : "hr2.midi.port 2-midi-outport"
+					"patching_rect" : [ 250.0, 260.0, 230.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 475.0, 300.0, 230.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"args" : [ "1-midi-outport" ],
 					"id" : "obj-55",
-					"maxclass" : "newobj",
+					"maxclass" : "bpatcher",
+					"name" : "hr2.midi.port.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 450.0, 155.0, 20.0 ],
-					"text" : "hr2.midi.port 1-midi-outport"
+					"patching_rect" : [ 250.0, 235.0, 230.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 475.0, 275.0, 230.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"args" : [ "3-midi-inport" ],
 					"id" : "obj-53",
-					"maxclass" : "newobj",
+					"maxclass" : "bpatcher",
+					"name" : "hr2.midi.port.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 420.0, 147.0, 20.0 ],
-					"text" : "hr2.midi.port 3-midi-inport"
+					"patching_rect" : [ 25.0, 285.0, 230.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 250.0, 325.0, 230.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"args" : [ "2-midi-inport" ],
 					"id" : "obj-51",
-					"maxclass" : "newobj",
+					"maxclass" : "bpatcher",
+					"name" : "hr2.midi.port.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 390.0, 147.0, 20.0 ],
-					"text" : "hr2.midi.port 2-midi-inport"
+					"patching_rect" : [ 25.0, 260.0, 230.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 250.0, 300.0, 230.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"args" : [ "1-midi-inport" ],
 					"id" : "obj-48",
-					"maxclass" : "newobj",
+					"maxclass" : "bpatcher",
+					"name" : "hr2.midi.port.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 360.0, 147.0, 20.0 ],
-					"text" : "hr2.midi.port 1-midi-inport"
+					"patching_rect" : [ 25.0, 235.0, 230.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 250.0, 275.0, 230.0, 20.0 ]
 				}
 
 			}
@@ -262,6 +293,8 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1050.0, 255.0, 75.0, 30.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1045.0, 275.0, 75.0, 30.0 ],
 					"prototypename" : "M4L.toggle",
 					"rounded" : 0.0,
 					"text" : "Clear",
@@ -292,6 +325,8 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 905.0, 255.0, 75.0, 30.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 40.0, 10.0, 75.0, 30.0 ],
 					"prototypename" : "M4L.toggle",
 					"rounded" : 0.0,
 					"text" : "Initialize",
@@ -457,7 +492,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 10.0, 35.0, 20.0, 165.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 35.0, 20.0, 165.0 ],
+					"presentation_rect" : [ 10.0, 75.0, 20.0, 165.0 ],
 					"prototypename" : "M4L.black.H"
 				}
 
@@ -472,7 +507,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 675.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 675.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 675.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-24"
 				}
 
@@ -487,7 +522,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 650.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 650.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 650.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-23"
 				}
 
@@ -502,7 +537,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 625.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 625.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 625.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-22"
 				}
 
@@ -517,7 +552,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 600.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 600.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 600.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-21"
 				}
 
@@ -532,7 +567,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 575.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 575.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 575.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-20"
 				}
 
@@ -547,7 +582,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 550.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 550.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 550.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-19"
 				}
 
@@ -562,7 +597,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 525.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 525.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 525.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-18"
 				}
 
@@ -577,7 +612,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 500.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 500.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 500.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-17"
 				}
 
@@ -592,7 +627,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 450.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 450.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-16"
 				}
 
@@ -607,7 +642,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 425.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 425.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 425.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-15"
 				}
 
@@ -622,7 +657,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 400.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 400.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 400.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-14"
 				}
 
@@ -637,7 +672,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 375.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 375.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 375.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-13"
 				}
 
@@ -652,7 +687,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 350.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 350.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 350.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-12"
 				}
 
@@ -667,7 +702,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 325.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 325.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 325.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-11"
 				}
 
@@ -682,7 +717,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 300.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 300.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 300.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-10"
 				}
 
@@ -697,7 +732,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 275.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 275.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 275.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-9"
 				}
 
@@ -712,7 +747,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 225.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-8"
 				}
 
@@ -727,7 +762,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 200.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 200.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-7"
 				}
 
@@ -742,7 +777,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 175.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 175.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 175.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-6"
 				}
 
@@ -757,7 +792,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 150.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 150.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-5"
 				}
 
@@ -772,7 +807,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 125.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 125.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-4"
 				}
 
@@ -787,7 +822,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 100.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 100.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-3"
 				}
 
@@ -802,7 +837,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 75.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 75.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-2"
 				}
 
@@ -817,7 +852,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 50.0, 15.0, 20.0, 205.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 50.0, 15.0, 20.0, 205.0 ],
+					"presentation_rect" : [ 50.0, 55.0, 20.0, 205.0 ],
 					"varname" : "M24-Fader-1"
 				}
 
@@ -884,7 +919,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.0, 10.0, 215.0, 215.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 490.0, 10.0, 215.0, 215.0 ],
+					"presentation_rect" : [ 490.0, 50.0, 215.0, 215.0 ],
 					"rounded" : 16
 				}
 
@@ -902,7 +937,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 265.0, 10.0, 215.0, 215.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 265.0, 10.0, 215.0, 215.0 ],
+					"presentation_rect" : [ 265.0, 50.0, 215.0, 215.0 ],
 					"rounded" : 16
 				}
 
@@ -920,7 +955,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 40.0, 10.0, 215.0, 215.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 10.0, 215.0, 215.0 ],
+					"presentation_rect" : [ 40.0, 50.0, 215.0, 215.0 ],
 					"rounded" : 16
 				}
 
@@ -934,7 +969,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 915.0, 20.0, 10.0, 195.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 915.0, 20.0, 10.0, 195.0 ]
+					"presentation_rect" : [ 915.0, 60.0, 10.0, 195.0 ]
 				}
 
 			}
@@ -948,7 +983,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 925.0, 200.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 925.0, 200.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 925.0, 240.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -962,7 +997,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 925.0, 180.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 925.0, 180.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 925.0, 220.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -976,7 +1011,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 925.0, 160.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 925.0, 160.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 925.0, 200.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -990,7 +1025,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 925.0, 140.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 925.0, 140.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 925.0, 180.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1004,7 +1039,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 925.0, 120.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 925.0, 120.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 925.0, 160.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1018,7 +1053,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 925.0, 100.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 925.0, 100.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 925.0, 140.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1032,7 +1067,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 925.0, 80.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 925.0, 80.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 925.0, 120.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1046,7 +1081,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 925.0, 60.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 925.0, 60.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 925.0, 100.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1060,7 +1095,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 925.0, 40.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 925.0, 40.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 925.0, 80.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1074,7 +1109,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 925.0, 20.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 925.0, 20.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 925.0, 60.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1088,7 +1123,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.0, 200.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 730.0, 200.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 730.0, 240.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1102,7 +1137,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.0, 180.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 730.0, 180.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 730.0, 220.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1116,7 +1151,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.0, 160.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 730.0, 160.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 730.0, 200.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1130,7 +1165,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.0, 140.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 730.0, 140.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 730.0, 180.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1144,7 +1179,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.0, 120.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 730.0, 120.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 730.0, 160.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1158,7 +1193,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.0, 100.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 730.0, 100.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 730.0, 140.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1172,7 +1207,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.0, 80.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 730.0, 80.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 730.0, 120.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1186,7 +1221,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.0, 60.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 730.0, 60.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 730.0, 100.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1200,7 +1235,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.0, 40.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 730.0, 40.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 730.0, 80.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1214,7 +1249,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 730.0, 20.0, 185.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 730.0, 20.0, 185.0, 15.0 ]
+					"presentation_rect" : [ 730.0, 60.0, 185.0, 15.0 ]
 				}
 
 			}
@@ -1231,7 +1266,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 720.0, 10.0, 400.0, 215.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 720.0, 10.0, 400.0, 215.0 ],
+					"presentation_rect" : [ 720.0, 50.0, 400.0, 215.0 ],
 					"rounded" : 16
 				}
 
@@ -1444,6 +1479,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "routings.json",
+				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "hr2.gui.slider.maxpat",
 				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
 				"patcherrelativepath" : ".",
@@ -1466,6 +1508,41 @@
 			}
 , 			{
 				"name" : "hr2.dict.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hr2.midi.port.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ports.txt",
+				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hr2.midi.receive.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hr2.midi.receive.channelfader.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hr2.midi.receive.busfader.maxpat",
 				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
