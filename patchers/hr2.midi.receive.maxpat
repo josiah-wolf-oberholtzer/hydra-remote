@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 142.0, 44.0, 1276.0, 730.0 ],
+		"rect" : [ 4.0, 44.0, 1276.0, 730.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -873,22 +873,7 @@
 
 			}
  ],
-		"lines" : [  ],
-		"dependency_cache" : [ 			{
-				"name" : "hr2.midi.receive.channelfader.maxpat",
-				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hr2.midi.receive.busfader.maxpat",
-				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ]
+		"lines" : [  ]
 	}
 
 }

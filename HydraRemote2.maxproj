@@ -2,8 +2,8 @@
 	"name" : "HydraRemote2",
 	"version" : 1,
 	"creationdate" : -813083264,
-	"modificationdate" : -812920937,
-	"viewrect" : [ 29.0, 128.0, 300.0, 500.0 ],
+	"modificationdate" : -812911059,
+	"viewrect" : [ 10.0, 58.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -75,6 +75,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"hr2.midi.port.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -104,5 +109,5 @@
 
 	}
 ,
-	"detailsvisible" : 1
+	"detailsvisible" : 0
 }

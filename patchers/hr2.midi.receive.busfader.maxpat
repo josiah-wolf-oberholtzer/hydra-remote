@@ -51,7 +51,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 65.0, 115.0, 130.0, 18.0 ],
-					"text" : "DM1K-0-Stereo-MIDI"
+					"text" : "DM1K-2-Stereo"
 				}
 
 			}
@@ -78,8 +78,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 165.0, 119.0, 20.0 ],
-					"text" : "r #2-midi-outport"
+					"patching_rect" : [ 30.0, 165.0, 131.0, 20.0 ],
+					"text" : "r #1-midi-outport"
 				}
 
 			}

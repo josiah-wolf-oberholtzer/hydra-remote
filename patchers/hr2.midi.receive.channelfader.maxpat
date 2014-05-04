@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 65.0, 115.0, 149.0, 18.0 ],
-					"text" : "DM1K-0-Channel-25-MIDI"
+					"text" : "DM1K-2-Channel-42"
 				}
 
 			}
@@ -135,7 +135,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 165.0, 99.0, 20.0 ],
-					"text" : "r #2-midi-outport"
+					"text" : "r #1-midi-outport"
 				}
 
 			}
