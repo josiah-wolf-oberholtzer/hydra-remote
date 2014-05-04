@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 354.0, 117.0, 550.0, 594.0 ],
+		"rect" : [ 730.0, 63.0, 550.0, 594.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -32,12 +32,32 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 30.0, 70.0, 69.0, 20.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"text" : "pattr Fader",
+					"varname" : "Fader"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 75.0, 101.0, 20.0 ],
+					"patching_rect" : [ 445.0, 90.0, 101.0, 20.0 ],
 					"text" : "loadmess text #1"
 				}
 
@@ -205,7 +225,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 10.0, 177.0, 20.0 ],
+					"patching_rect" : [ 280.0, 10.0, 183.0, 20.0 ],
 					"text" : "r #0-is-linked-to-master-fader"
 				}
 
@@ -218,7 +238,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 430.0, 179.0, 20.0 ],
+					"patching_rect" : [ 10.0, 430.0, 185.0, 20.0 ],
 					"text" : "s #0-is-linked-to-master-fader"
 				}
 
@@ -258,7 +278,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 190.0, 87.0, 20.0 ],
+					"patching_rect" : [ 25.0, 250.0, 93.0, 20.0 ],
 					"text" : "v #0-fader 0"
 				}
 
@@ -272,7 +292,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 10.0, 165.0, 33.5, 20.0 ],
+					"patching_rect" : [ 10.0, 225.0, 33.5, 20.0 ],
 					"text" : "t i i"
 				}
 
@@ -314,7 +334,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 480.0, 87.0, 20.0 ],
+					"patching_rect" : [ 10.0, 480.0, 93.0, 20.0 ],
 					"text" : "v #0-fader 0"
 				}
 
@@ -397,7 +417,7 @@
 					"bordercolor" : [ 0.666667, 0.698039, 0.717647, 0.0 ],
 					"borderoncolor" : [ 0.666667, 0.698039, 0.717647, 0.0 ],
 					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"id" : "obj-13",
 					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
@@ -406,13 +426,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 35.0, 105.0, 28.0, 16.0 ],
+					"patching_rect" : [ 445.0, 120.0, 28.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 20.0, 20.0 ],
+					"presentation_rect" : [ -5.0, 0.0, 30.0, 20.0 ],
 					"prototypename" : "M4L.display",
 					"rounded" : 0.0,
-					"text" : "#1",
-					"textcolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
+					"text" : "1",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "Text",
 					"textovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textoveroncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -446,7 +466,7 @@
 					"outlinecolor" : [ 1.0, 0.403922, 0.0, 0.0 ],
 					"patching_rect" : [ 25.0, 350.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 160.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 185.0, 20.0, 20.0 ],
 					"prototypename" : "M4L.orange",
 					"varname" : "live.button"
 				}
@@ -463,7 +483,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 405.0, 129.0, 20.0 ],
 					"text" : "hr2.midi.router #1",
-					"varname" : "hr2.midi.router"
+					"varname" : "Routing"
 				}
 
 			}
@@ -549,10 +569,11 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 65.0, 16.0, 96.0 ],
+					"patching_rect" : [ 10.0, 125.0, 16.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 20.0, 20.0, 140.0 ],
-					"prototypename" : "M4L.black.H"
+					"presentation_rect" : [ 0.0, 20.0, 20.0, 165.0 ],
+					"prototypename" : "M4L.black.H",
+					"varname" : "slider"
 				}
 
 			}
@@ -886,6 +907,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 1 ]
 				}
 
 			}
