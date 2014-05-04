@@ -7,7 +7,7 @@
 				"name" : "Josiah",
 				"data" : 				{
 					"M24-Fader-1::Fader" : [ 128.0 ],
-					"M24-Fader-1::Routing::is-linked-to-master-fader" : [ 0 ],
+					"M24-Fader-1::Routing::is-linked-to-master-fader" : [ 1 ],
 					"M24-Fader-1::Routing::is-master-fader" : [ 0 ],
 					"M24-Fader-1::Routing::DM1K-1::Channel-1" : [ 1 ],
 					"M24-Fader-1::Routing::DM1K-1::Channel-2" : [ 0 ],
@@ -9608,7 +9608,7 @@
 				"data" : 				{
 					"M24-Fader-1::Fader" : [ 0.0 ],
 					"M24-Fader-1::Routing::is-linked-to-master-fader" : [ 0 ],
-					"M24-Fader-1::Routing::is-master-fader" : [ 0 ],
+					"M24-Fader-1::Routing::is-master-fader" : [ 1 ],
 					"M24-Fader-1::Routing::DM1K-1::Channel-1" : [ 0 ],
 					"M24-Fader-1::Routing::DM1K-1::Channel-2" : [ 0 ],
 					"M24-Fader-1::Routing::DM1K-1::Channel-3" : [ 0 ],

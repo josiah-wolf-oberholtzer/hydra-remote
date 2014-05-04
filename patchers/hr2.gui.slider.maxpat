@@ -32,6 +32,62 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 270.0, 430.0, 144.0, 20.0 ],
+					"text" : "r #0-is-master-fader"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 310.0, 505.0, 132.0, 18.0 ],
+					"text" : "bordercolor 1. 0.6 0. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 270.0, 480.0, 125.0, 18.0 ],
+					"text" : "bordercolor 0. 0. 0. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 270.0, 455.0, 99.0, 20.0 ],
+					"text" : "sel 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-48",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -555,7 +611,7 @@
 					"presentation_rect" : [ -5.0, 0.0, 30.0, 20.0 ],
 					"prototypename" : "M4L.display",
 					"rounded" : 0.0,
-					"text" : "1",
+					"text" : "#1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "Text",
 					"textovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -587,7 +643,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"outlinecolor" : [ 1.0, 0.6, 0.0, 1.0 ],
 					"patching_rect" : [ 25.0, 555.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 185.0, 20.0, 20.0 ],
@@ -684,7 +740,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.094118, 0.113725, 0.137255, 1.0 ],
-					"bordercolor" : [ 0.666667, 0.698039, 0.717647, 0.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-1",
 					"knobcolor" : [ 1.0, 0.603922, 0.0, 1.0 ],
@@ -697,6 +753,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 20.0, 20.0, 165.0 ],
 					"prototypename" : "M4L.black.H",
+					"size" : 127.0,
 					"varname" : "slider"
 				}
 
@@ -718,6 +775,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 19.5, 299.0, 80.5, 299.0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -816,6 +882,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -885,6 +960,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-27", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -1027,6 +1120,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1162,6 +1264,28 @@
 					"source" : [ "obj-9", 1 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "hr2.midi.router.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hr2.midi.router.console.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hr2.dict.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Max/Projects/HydraRemote2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ]
 	}

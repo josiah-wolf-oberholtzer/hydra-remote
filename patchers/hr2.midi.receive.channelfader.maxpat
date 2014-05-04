@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 149.0, 407.0, 294.0, 225.0 ],
+		"rect" : [ 222.0, 44.0, 294.0, 225.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 65.0, 115.0, 149.0, 18.0 ],
-					"text" : "DM1K-2-Channel-42"
+					"text" : "DM1K-1-Channel-1"
 				}
 
 			}
