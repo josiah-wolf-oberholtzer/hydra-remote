@@ -434,7 +434,7 @@
 					"presentation_rect" : [ 170.0, 0.0, 120.0, 50.0 ],
 					"prototypename" : "M4L.display",
 					"rounded" : 0.0,
-					"text" : "1",
+					"text" : "17",
 					"textcolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
 					"texton" : "Text",
 					"textovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],

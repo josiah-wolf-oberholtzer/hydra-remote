@@ -1438,7 +1438,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 880.0, 695.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Master-1"
+					"text" : "hr2.dict #1 #2-Master-8"
 				}
 
 			}
@@ -1534,7 +1534,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 755.0, 695.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Master-1"
+					"text" : "hr2.dict #1 #2-Master-7"
 				}
 
 			}
@@ -1630,7 +1630,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 630.0, 695.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Master-1"
+					"text" : "hr2.dict #1 #2-Master-6"
 				}
 
 			}
@@ -1726,7 +1726,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 505.0, 695.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Master-1"
+					"text" : "hr2.dict #1 #2-Master-5"
 				}
 
 			}
@@ -1822,7 +1822,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 880.0, 605.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Aux-1"
+					"text" : "hr2.dict #1 #2-Aux-8"
 				}
 
 			}
@@ -1918,7 +1918,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 755.0, 605.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Aux-1"
+					"text" : "hr2.dict #1 #2-Aux-7"
 				}
 
 			}
@@ -2014,7 +2014,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 630.0, 605.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Aux-1"
+					"text" : "hr2.dict #1 #2-Aux-6"
 				}
 
 			}
@@ -2110,7 +2110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 505.0, 605.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Aux-1"
+					"text" : "hr2.dict #1 #2-Aux-5"
 				}
 
 			}
@@ -2974,7 +2974,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 385.0, 695.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Master-1"
+					"text" : "hr2.dict #1 #2-Master-4"
 				}
 
 			}
@@ -3070,7 +3070,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 260.0, 695.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Master-1"
+					"text" : "hr2.dict #1 #2-Master-3"
 				}
 
 			}
@@ -3166,7 +3166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 135.0, 695.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Master-1"
+					"text" : "hr2.dict #1 #2-Master-2"
 				}
 
 			}
@@ -3358,7 +3358,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 385.0, 605.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Aux-1"
+					"text" : "hr2.dict #1 #2-Aux-4"
 				}
 
 			}
@@ -3454,7 +3454,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 260.0, 605.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Aux-1"
+					"text" : "hr2.dict #1 #2-Aux-3"
 				}
 
 			}
@@ -3550,7 +3550,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 135.0, 605.0, 115.0, 33.0 ],
-					"text" : "hr2.dict #1 #2-Aux-1"
+					"text" : "hr2.dict #1 #2-Aux-2"
 				}
 
 			}

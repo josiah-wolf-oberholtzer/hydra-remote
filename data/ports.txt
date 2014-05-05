@@ -1,1 +1,1 @@
-1-midi-inport, "AU DLS Synth 1";2-midi-inport, "from Max 1";3-midi-inport, "from Max 2";1-midi-outport, "from Max 1";2-midi-outport, "from Max 2";
+1-midi-inport, "M24 USB Port 1";2-midi-inport, "M24 USB Port 2";3-midi-inport, "M24 USB Port 3";1-midi-outport, "YAMAHA DM1000 Port1";2-midi-outport, "YAMAHA DM1000 Port2";
